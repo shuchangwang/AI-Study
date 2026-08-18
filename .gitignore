@@ -1,9 +1,8 @@
-./*.venv
-./*.idea
-./*.xml
-./*.swp
-.env
+*.venv
 .idea/
+.env
+*.xml
+*.swp
 pyproject.toml
 uv.lock
 免费大模型列表.txt
