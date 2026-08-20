@@ -26,7 +26,7 @@
 from langchain_openai import ChatOpenAI
 
 llm = ChatOpenAI(
-    model_name="qwen3.7-max",
+    model_name="qwen3.8-max",
     base_url="https://llm-lh6s7em3q8okhlai.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
     temperature=0
 )
