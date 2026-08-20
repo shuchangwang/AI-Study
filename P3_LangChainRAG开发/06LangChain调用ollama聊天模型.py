@@ -1,7 +1,7 @@
 from langchain_core.messages import SystemMessage, AIMessage, HumanMessage
 from langchain_ollama import ChatOllama
 
-# 得到模型对象, qwen3.7-max就是聊天模型
+# 得到模型对象
 llm = ChatOllama(model="qwen:4b")
 
 # 准备消息列表
