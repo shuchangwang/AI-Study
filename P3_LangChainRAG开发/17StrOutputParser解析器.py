@@ -7,7 +7,7 @@ prompte_template = PromptTemplate.from_template("我的邻居姓：{lastname},�
 str_output_parser = StrOutputParser()
 llm = ChatOpenAI(
     model_name="qwen3.8-max",
-    base_url="https://llm-lh6s7em3q8okhlai.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+    base_url="https://llm-lh6s7em3q8okhlai.cn-beijing.maas.aliyuncs.com/compatible-mode/v1"
 )
 # chain = prompte_template | llm | str_output_parser | llm
 # res: AIMessage = chain.invoke({"lastname": "王", "gender": "儿子"})
